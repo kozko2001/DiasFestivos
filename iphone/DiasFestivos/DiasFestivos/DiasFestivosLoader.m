@@ -81,6 +81,8 @@ coredataContext: (NSManagedObjectContext*) ctx
         
     }
     model.data = data;
+    
+    [target performSelector: onComplete];
 }
 
 
@@ -185,6 +187,7 @@ coredataContext: (NSManagedObjectContext*) ctx
     
     
     NSDate *todaysDate = [NSDate date];
+    
     NSTimeInterval lastDiff = [date timeIntervalSinceNow];
     NSTimeInterval todaysDiff = [todaysDate timeIntervalSinceNow];
     NSTimeInterval dateDiff = lastDiff - todaysDiff;
@@ -194,7 +197,7 @@ coredataContext: (NSManagedObjectContext*) ctx
     model.fecha = [NSString stringWithFormat: @"(%@) %i %i %i", diaSemana, dia, mes, ano];
     model.nombreFiesta = nombre;
     model.diasRestantes = (dateDiff / (60*60*24)) +1;
-    
+    model.date = date;
     if(model.diasRestantes >= 0 ) 
         [data addObject: model]; 
 }

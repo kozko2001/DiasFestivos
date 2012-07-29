@@ -18,5 +18,6 @@
 @property (strong) NSString* nombreFiesta;
 @property (assign) int diasRestantes;
 @property (strong) NSString* fecha;
+@property (strong) NSDate* date;
 
 @end

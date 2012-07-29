@@ -14,5 +14,5 @@
 @end
 
 @implementation DiasFestivosData
-@synthesize nombreFiesta, diasRestantes, fecha;
+@synthesize nombreFiesta, diasRestantes, fecha, date;
 @end    

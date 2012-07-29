@@ -106,11 +106,36 @@
     return 67;
 }
 
+#pragma mark - Local Notifications
+- (void)  setLocalNotifications
+{
+        [[UIApplication sharedApplication] cancelAllLocalNotifications];
+        
+        Class cls = NSClassFromString(@"UILocalNotification");
+        if (cls != nil) {
+            for (DiasFestivosData* dia in model.data) {
+                UILocalNotification *notif = [[cls alloc] init];
+                NSDate *date = dia.date;
+
+                notif.fireDate = dia.date;
+                notif.timeZone = [NSTimeZone defaultTimeZone];
+                
+                notif.alertBody = [NSString stringWithFormat: @"Hoy es %@" , dia.nombreFiesta];
+                NSLog(@"%@" , notif.alertBody);
+                notif.alertAction = @"Ver";
+                notif.soundName = UILocalNotificationDefaultSoundName;
+                
+                [[UIApplication sharedApplication] scheduleLocalNotification:notif];    
+            }
+
+    }
+}
 
 #pragma mark - Loader events
 
 -(void) onLoaderComplete{
     [table reloadData];
+    [self setLocalNotifications];
 }
 
 -(void) onLoaderError{
