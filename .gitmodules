@@ -1,0 +1,6 @@
+[submodule "android/maven-android-sdk-deployer"]
+	path = android/maven-android-sdk-deployer
+	url = https://github.com/mosabua/maven-android-sdk-deployer.git
+[submodule "iphone/DiasFestivos/DiasFestivos/AFNetworking"]
+	path = iphone/DiasFestivos/DiasFestivos/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git

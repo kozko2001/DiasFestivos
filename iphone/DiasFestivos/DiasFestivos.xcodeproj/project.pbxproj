@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0E1BBA615C0FB0800E035D2 /* DiasFestivos.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E1BBA515C0FB0800E035D2 /* DiasFestivos.m */; };
+		F0E1BBAA15C0FC7600E035D2 /* DiasFestivosLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E1BBA915C0FC7600E035D2 /* DiasFestivosLoader.m */; };
+		F0E1BBAC15C1072100E035D2 /* DiaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E1BBAB15C1072100E035D2 /* DiaCell.xib */; };
+		F0E6A63F15BE4C2400EE43C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E6A63E15BE4C2400EE43C8 /* UIKit.framework */; };
+		F0E6A64115BE4C2400EE43C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E6A64015BE4C2400EE43C8 /* Foundation.framework */; };
+		F0E6A64315BE4C2400EE43C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E6A64215BE4C2400EE43C8 /* CoreGraphics.framework */; };
+		F0E6A64915BE4C2400EE43C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0E6A64715BE4C2400EE43C8 /* InfoPlist.strings */; };
+		F0E6A64B15BE4C2400EE43C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A64A15BE4C2400EE43C8 /* main.m */; };
+		F0E6A64F15BE4C2400EE43C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A64E15BE4C2400EE43C8 /* AppDelegate.m */; };
+		F0E6A65215BE4C2400EE43C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A65115BE4C2400EE43C8 /* ViewController.m */; };
+		F0E6A65515BE4C2400EE43C8 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E6A65315BE4C2400EE43C8 /* ViewController_iPhone.xib */; };
+		F0E6A65815BE4C2400EE43C8 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E6A65615BE4C2400EE43C8 /* ViewController_iPad.xib */; };
+		F0E6A67D15BE5A7700EE43C8 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A66915BE5A7700EE43C8 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		F0E6A67E15BE5A7700EE43C8 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A66B15BE5A7700EE43C8 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		F0E6A67F15BE5A7700EE43C8 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A66D15BE5A7700EE43C8 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		F0E6A68015BE5A7700EE43C8 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A66F15BE5A7700EE43C8 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		F0E6A68115BE5A7700EE43C8 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A67115BE5A7700EE43C8 /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		F0E6A68215BE5A7700EE43C8 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A67315BE5A7700EE43C8 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		F0E6A68315BE5A7700EE43C8 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A67615BE5A7700EE43C8 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		F0E6A68415BE5A7700EE43C8 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A67815BE5A7700EE43C8 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		F0E6A68515BE5A7700EE43C8 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A67A15BE5A7700EE43C8 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		F0E6A68615BE5A7700EE43C8 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A67C15BE5A7700EE43C8 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		F0E6A68C15BE5AD100EE43C8 /* LocalidadesLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A68B15BE5AD100EE43C8 /* LocalidadesLoader.m */; };
+		F0E6A68F15BE5B1500EE43C8 /* Localidades.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A68E15BE5B1500EE43C8 /* Localidades.m */; };
+		F0E6A69915BFB03300EE43C8 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A69815BFB03300EE43C8 /* Settings.m */; };
+		F0E6A69D15BFB2FC00EE43C8 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6A69B15BFB2FC00EE43C8 /* SettingsViewController.m */; };
+		F0E6A69E15BFB2FC00EE43C8 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E6A69C15BFB2FC00EE43C8 /* SettingsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0E1BBA415C0FB0800E035D2 /* DiasFestivos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiasFestivos.h; sourceTree = "<group>"; };
+		F0E1BBA515C0FB0800E035D2 /* DiasFestivos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiasFestivos.m; sourceTree = "<group>"; };
+		F0E1BBA815C0FC7600E035D2 /* DiasFestivosLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiasFestivosLoader.h; sourceTree = "<group>"; };
+		F0E1BBA915C0FC7600E035D2 /* DiasFestivosLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiasFestivosLoader.m; sourceTree = "<group>"; };
+		F0E1BBAB15C1072100E035D2 /* DiaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiaCell.xib; sourceTree = "<group>"; };
+		F0E6A63A15BE4C2400EE43C8 /* DiasFestivos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiasFestivos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E6A63E15BE4C2400EE43C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0E6A64015BE4C2400EE43C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0E6A64215BE4C2400EE43C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0E6A64615BE4C2400EE43C8 /* DiasFestivos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiasFestivos-Info.plist"; sourceTree = "<group>"; };
+		F0E6A64815BE4C2400EE43C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0E6A64A15BE4C2400EE43C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0E6A64C15BE4C2400EE43C8 /* DiasFestivos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiasFestivos-Prefix.pch"; sourceTree = "<group>"; };
+		F0E6A64D15BE4C2400EE43C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0E6A64E15BE4C2400EE43C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0E6A65015BE4C2400EE43C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0E6A65115BE4C2400EE43C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0E6A65415BE4C2400EE43C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		F0E6A65715BE4C2400EE43C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		F0E6A66815BE5A7700EE43C8 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking/AFNetworking/AFHTTPClient.h; sourceTree = "<group>"; };
+		F0E6A66915BE5A7700EE43C8 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = AFNetworking/AFNetworking/AFHTTPClient.m; sourceTree = "<group>"; };
+		F0E6A66A15BE5A7700EE43C8 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		F0E6A66B15BE5A7700EE43C8 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		F0E6A66C15BE5A7700EE43C8 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking/AFNetworking/AFImageRequestOperation.h; sourceTree = "<group>"; };
+		F0E6A66D15BE5A7700EE43C8 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = AFNetworking/AFNetworking/AFImageRequestOperation.m; sourceTree = "<group>"; };
+		F0E6A66E15BE5A7700EE43C8 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking/AFNetworking/AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		F0E6A66F15BE5A7700EE43C8 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = AFNetworking/AFNetworking/AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		F0E6A67015BE5A7700EE43C8 /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONUtilities.h; path = AFNetworking/AFNetworking/AFJSONUtilities.h; sourceTree = "<group>"; };
+		F0E6A67115BE5A7700EE43C8 /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONUtilities.m; path = AFNetworking/AFNetworking/AFJSONUtilities.m; sourceTree = "<group>"; };
+		F0E6A67215BE5A7700EE43C8 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		F0E6A67315BE5A7700EE43C8 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		F0E6A67415BE5A7700EE43C8 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		F0E6A67515BE5A7700EE43C8 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		F0E6A67615BE5A7700EE43C8 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = AFNetworking/AFNetworking/AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		F0E6A67715BE5A7700EE43C8 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		F0E6A67815BE5A7700EE43C8 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		F0E6A67915BE5A7700EE43C8 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking/AFNetworking/AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		F0E6A67A15BE5A7700EE43C8 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = AFNetworking/AFNetworking/AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		F0E6A67B15BE5A7700EE43C8 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		F0E6A67C15BE5A7700EE43C8 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		F0E6A68A15BE5AD100EE43C8 /* LocalidadesLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalidadesLoader.h; sourceTree = "<group>"; };
+		F0E6A68B15BE5AD100EE43C8 /* LocalidadesLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalidadesLoader.m; sourceTree = "<group>"; };
+		F0E6A68D15BE5B1500EE43C8 /* Localidades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Localidades.h; sourceTree = "<group>"; };
+		F0E6A68E15BE5B1500EE43C8 /* Localidades.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Localidades.m; sourceTree = "<group>"; };
+		F0E6A69015BE5B6400EE43C8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F0E6A69715BFB03300EE43C8 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		F0E6A69815BFB03300EE43C8 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		F0E6A69A15BFB2FC00EE43C8 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F0E6A69B15BFB2FC00EE43C8 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F0E6A69C15BFB2FC00EE43C8 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0E6A63715BE4C2400EE43C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E6A63F15BE4C2400EE43C8 /* UIKit.framework in Frameworks */,
+				F0E6A64115BE4C2400EE43C8 /* Foundation.framework in Frameworks */,
+				F0E6A64315BE4C2400EE43C8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0E6A62F15BE4C2300EE43C8 = {
+			isa = PBXGroup;
+			children = (
+				F0E6A64415BE4C2400EE43C8 /* DiasFestivos */,
+				F0E6A63D15BE4C2400EE43C8 /* Frameworks */,
+				F0E6A63B15BE4C2400EE43C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0E6A63B15BE4C2400EE43C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A63A15BE4C2400EE43C8 /* DiasFestivos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0E6A63D15BE4C2400EE43C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A63E15BE4C2400EE43C8 /* UIKit.framework */,
+				F0E6A64015BE4C2400EE43C8 /* Foundation.framework */,
+				F0E6A64215BE4C2400EE43C8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E6A64415BE4C2400EE43C8 /* DiasFestivos */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A69515BFB00200EE43C8 /* Resources */,
+				F0E6A69315BFAFD500EE43C8 /* Controllers */,
+				F0E6A69415BFAFE400EE43C8 /* AppDelegate */,
+				F0E6A68715BE5A9400EE43C8 /* Model */,
+				F0E6A66715BE5A6000EE43C8 /* AFNetworking */,
+				F0E6A64515BE4C2400EE43C8 /* Supporting Files */,
+				F0E6A69015BE5B6400EE43C8 /* Constants.h */,
+			);
+			path = DiasFestivos;
+			sourceTree = "<group>";
+		};
+		F0E6A64515BE4C2400EE43C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A64615BE4C2400EE43C8 /* DiasFestivos-Info.plist */,
+				F0E6A64715BE4C2400EE43C8 /* InfoPlist.strings */,
+				F0E6A64A15BE4C2400EE43C8 /* main.m */,
+				F0E6A64C15BE4C2400EE43C8 /* DiasFestivos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0E6A66715BE5A6000EE43C8 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A66815BE5A7700EE43C8 /* AFHTTPClient.h */,
+				F0E6A66915BE5A7700EE43C8 /* AFHTTPClient.m */,
+				F0E6A66A15BE5A7700EE43C8 /* AFHTTPRequestOperation.h */,
+				F0E6A66B15BE5A7700EE43C8 /* AFHTTPRequestOperation.m */,
+				F0E6A66C15BE5A7700EE43C8 /* AFImageRequestOperation.h */,
+				F0E6A66D15BE5A7700EE43C8 /* AFImageRequestOperation.m */,
+				F0E6A66E15BE5A7700EE43C8 /* AFJSONRequestOperation.h */,
+				F0E6A66F15BE5A7700EE43C8 /* AFJSONRequestOperation.m */,
+				F0E6A67015BE5A7700EE43C8 /* AFJSONUtilities.h */,
+				F0E6A67115BE5A7700EE43C8 /* AFJSONUtilities.m */,
+				F0E6A67215BE5A7700EE43C8 /* AFNetworkActivityIndicatorManager.h */,
+				F0E6A67315BE5A7700EE43C8 /* AFNetworkActivityIndicatorManager.m */,
+				F0E6A67415BE5A7700EE43C8 /* AFNetworking.h */,
+				F0E6A67515BE5A7700EE43C8 /* AFPropertyListRequestOperation.h */,
+				F0E6A67615BE5A7700EE43C8 /* AFPropertyListRequestOperation.m */,
+				F0E6A67715BE5A7700EE43C8 /* AFURLConnectionOperation.h */,
+				F0E6A67815BE5A7700EE43C8 /* AFURLConnectionOperation.m */,
+				F0E6A67915BE5A7700EE43C8 /* AFXMLRequestOperation.h */,
+				F0E6A67A15BE5A7700EE43C8 /* AFXMLRequestOperation.m */,
+				F0E6A67B15BE5A7700EE43C8 /* UIImageView+AFNetworking.h */,
+				F0E6A67C15BE5A7700EE43C8 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F0E6A68715BE5A9400EE43C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A68915BE5AA800EE43C8 /* Model */,
+				F0E6A68815BE5AA100EE43C8 /* Loader */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0E6A68815BE5AA100EE43C8 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A68A15BE5AD100EE43C8 /* LocalidadesLoader.h */,
+				F0E6A68B15BE5AD100EE43C8 /* LocalidadesLoader.m */,
+				F0E1BBA815C0FC7600E035D2 /* DiasFestivosLoader.h */,
+				F0E1BBA915C0FC7600E035D2 /* DiasFestivosLoader.m */,
+			);
+			name = Loader;
+			sourceTree = "<group>";
+		};
+		F0E6A68915BE5AA800EE43C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A68D15BE5B1500EE43C8 /* Localidades.h */,
+				F0E6A68E15BE5B1500EE43C8 /* Localidades.m */,
+				F0E6A69715BFB03300EE43C8 /* Settings.h */,
+				F0E6A69815BFB03300EE43C8 /* Settings.m */,
+				F0E1BBA415C0FB0800E035D2 /* DiasFestivos.h */,
+				F0E1BBA515C0FB0800E035D2 /* DiasFestivos.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0E6A69315BFAFD500EE43C8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A65015BE4C2400EE43C8 /* ViewController.h */,
+				F0E6A65115BE4C2400EE43C8 /* ViewController.m */,
+				F0E6A69A15BFB2FC00EE43C8 /* SettingsViewController.h */,
+				F0E6A69B15BFB2FC00EE43C8 /* SettingsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F0E6A69415BFAFE400EE43C8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A64D15BE4C2400EE43C8 /* AppDelegate.h */,
+				F0E6A64E15BE4C2400EE43C8 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F0E6A69515BFB00200EE43C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A69615BFB00B00EE43C8 /* NIB */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F0E6A69615BFB00B00EE43C8 /* NIB */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6A69C15BFB2FC00EE43C8 /* SettingsViewController.xib */,
+				F0E6A65315BE4C2400EE43C8 /* ViewController_iPhone.xib */,
+				F0E6A65615BE4C2400EE43C8 /* ViewController_iPad.xib */,
+				F0E1BBAB15C1072100E035D2 /* DiaCell.xib */,
+			);
+			name = NIB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0E6A63915BE4C2400EE43C8 /* DiasFestivos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E6A65B15BE4C2400EE43C8 /* Build configuration list for PBXNativeTarget "DiasFestivos" */;
+			buildPhases = (
+				F0E6A63615BE4C2400EE43C8 /* Sources */,
+				F0E6A63715BE4C2400EE43C8 /* Frameworks */,
+				F0E6A63815BE4C2400EE43C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiasFestivos;
+			productName = DiasFestivos;
+			productReference = F0E6A63A15BE4C2400EE43C8 /* DiasFestivos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0E6A63115BE4C2300EE43C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F0E6A63415BE4C2300EE43C8 /* Build configuration list for PBXProject "DiasFestivos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0E6A62F15BE4C2300EE43C8;
+			productRefGroup = F0E6A63B15BE4C2400EE43C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0E6A63915BE4C2400EE43C8 /* DiasFestivos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0E6A63815BE4C2400EE43C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E6A64915BE4C2400EE43C8 /* InfoPlist.strings in Resources */,
+				F0E6A65515BE4C2400EE43C8 /* ViewController_iPhone.xib in Resources */,
+				F0E6A65815BE4C2400EE43C8 /* ViewController_iPad.xib in Resources */,
+				F0E6A69E15BFB2FC00EE43C8 /* SettingsViewController.xib in Resources */,
+				F0E1BBAC15C1072100E035D2 /* DiaCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0E6A63615BE4C2400EE43C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E6A64B15BE4C2400EE43C8 /* main.m in Sources */,
+				F0E6A64F15BE4C2400EE43C8 /* AppDelegate.m in Sources */,
+				F0E6A65215BE4C2400EE43C8 /* ViewController.m in Sources */,
+				F0E6A67D15BE5A7700EE43C8 /* AFHTTPClient.m in Sources */,
+				F0E6A67E15BE5A7700EE43C8 /* AFHTTPRequestOperation.m in Sources */,
+				F0E6A67F15BE5A7700EE43C8 /* AFImageRequestOperation.m in Sources */,
+				F0E6A68015BE5A7700EE43C8 /* AFJSONRequestOperation.m in Sources */,
+				F0E6A68115BE5A7700EE43C8 /* AFJSONUtilities.m in Sources */,
+				F0E6A68215BE5A7700EE43C8 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				F0E6A68315BE5A7700EE43C8 /* AFPropertyListRequestOperation.m in Sources */,
+				F0E6A68415BE5A7700EE43C8 /* AFURLConnectionOperation.m in Sources */,
+				F0E6A68515BE5A7700EE43C8 /* AFXMLRequestOperation.m in Sources */,
+				F0E6A68615BE5A7700EE43C8 /* UIImageView+AFNetworking.m in Sources */,
+				F0E6A68C15BE5AD100EE43C8 /* LocalidadesLoader.m in Sources */,
+				F0E6A68F15BE5B1500EE43C8 /* Localidades.m in Sources */,
+				F0E6A69915BFB03300EE43C8 /* Settings.m in Sources */,
+				F0E6A69D15BFB2FC00EE43C8 /* SettingsViewController.m in Sources */,
+				F0E1BBA615C0FB0800E035D2 /* DiasFestivos.m in Sources */,
+				F0E1BBAA15C0FC7600E035D2 /* DiasFestivosLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0E6A64715BE4C2400EE43C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0E6A64815BE4C2400EE43C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0E6A65315BE4C2400EE43C8 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0E6A65415BE4C2400EE43C8 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F0E6A65615BE4C2400EE43C8 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0E6A65715BE4C2400EE43C8 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0E6A65915BE4C2400EE43C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0E6A65A15BE4C2400EE43C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0E6A65C15BE4C2400EE43C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiasFestivos/DiasFestivos-Prefix.pch";
+				INFOPLIST_FILE = "DiasFestivos/DiasFestivos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0E6A65D15BE4C2400EE43C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiasFestivos/DiasFestivos-Prefix.pch";
+				INFOPLIST_FILE = "DiasFestivos/DiasFestivos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0E6A63415BE4C2300EE43C8 /* Build configuration list for PBXProject "DiasFestivos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E6A65915BE4C2400EE43C8 /* Debug */,
+				F0E6A65A15BE4C2400EE43C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0E6A65B15BE4C2400EE43C8 /* Build configuration list for PBXNativeTarget "DiasFestivos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E6A65C15BE4C2400EE43C8 /* Debug */,
+				F0E6A65D15BE4C2400EE43C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0E6A63115BE4C2300EE43C8 /* Project object */;
+}
