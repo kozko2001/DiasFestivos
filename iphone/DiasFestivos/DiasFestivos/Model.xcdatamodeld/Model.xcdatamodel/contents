@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50b" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DiaFestivo" syncable="YES">
+        <attribute name="ano" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dia" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dia_semana" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mes" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DiaFestivo" positionX="160" positionY="192" width="128" height="120"/>
+    </elements>
+</model>

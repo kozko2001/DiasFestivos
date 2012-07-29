@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0DB18B215C520D40095CF59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DB18B115C520D40095CF59 /* CoreData.framework */; };
+		F0DB18BA15C521E80095CF59 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0DB18B815C521E80095CF59 /* Model.xcdatamodeld */; };
 		F0E1BBA615C0FB0800E035D2 /* DiasFestivos.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E1BBA515C0FB0800E035D2 /* DiasFestivos.m */; };
 		F0E1BBAA15C0FC7600E035D2 /* DiasFestivosLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E1BBA915C0FC7600E035D2 /* DiasFestivosLoader.m */; };
 		F0E1BBAC15C1072100E035D2 /* DiaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E1BBAB15C1072100E035D2 /* DiaCell.xib */; };
@@ -37,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0DB18B115C520D40095CF59 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F0DB18B915C521E80095CF59 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		F0E1BBA415C0FB0800E035D2 /* DiasFestivos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiasFestivos.h; sourceTree = "<group>"; };
 		F0E1BBA515C0FB0800E035D2 /* DiasFestivos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiasFestivos.m; sourceTree = "<group>"; };
 		F0E1BBA815C0FC7600E035D2 /* DiasFestivosLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiasFestivosLoader.h; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DB18B215C520D40095CF59 /* CoreData.framework in Frameworks */,
 				F0E6A63F15BE4C2400EE43C8 /* UIKit.framework in Frameworks */,
 				F0E6A64115BE4C2400EE43C8 /* Foundation.framework in Frameworks */,
 				F0E6A64315BE4C2400EE43C8 /* CoreGraphics.framework in Frameworks */,
@@ -103,9 +108,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0DB18B415C520E70095CF59 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F0DB18B815C521E80095CF59 /* Model.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		F0E6A62F15BE4C2300EE43C8 = {
 			isa = PBXGroup;
 			children = (
+				F0DB18B115C520D40095CF59 /* CoreData.framework */,
 				F0E6A64415BE4C2400EE43C8 /* DiasFestivos */,
 				F0E6A63D15BE4C2400EE43C8 /* Frameworks */,
 				F0E6A63B15BE4C2400EE43C8 /* Products */,
@@ -239,6 +253,7 @@
 		F0E6A69515BFB00200EE43C8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F0DB18B415C520E70095CF59 /* CoreData */,
 				F0E6A69615BFB00B00EE43C8 /* NIB */,
 			);
 			name = Resources;
@@ -339,6 +354,7 @@
 				F0E6A69D15BFB2FC00EE43C8 /* SettingsViewController.m in Sources */,
 				F0E1BBA615C0FB0800E035D2 /* DiasFestivos.m in Sources */,
 				F0E1BBAA15C0FC7600E035D2 /* DiasFestivosLoader.m in Sources */,
+				F0DB18BA15C521E80095CF59 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +479,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F0DB18B815C521E80095CF59 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F0DB18B915C521E80095CF59 /* Model.xcdatamodel */,
+			);
+			currentVersion = F0DB18B915C521E80095CF59 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F0E6A63115BE4C2300EE43C8 /* Project object */;
 }

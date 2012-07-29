@@ -10,8 +10,10 @@
 @class  DiasFestivos;
 
 @interface DiasFestivosLoader : NSObject
+
 -(void) request: (DiasFestivos*) model
   WithLocalidad: (NSString*) localidad 
+coredataContext: (NSManagedObjectContext*) ctx
      WithTarget: (id)target 
  WithOnComplete: (SEL) onComplete
     WithOnError: (SEL) onError;

@@ -36,6 +36,7 @@
     [[[DiasFestivosLoader alloc] init] 
      request: model 
      WithLocalidad: [settings getLocalidad]
+     coredataContext: app.managedObjectContext
      WithTarget:self
      WithOnComplete:@selector(onLoaderComplete) 
      WithOnError:@selector(onLoaderError)];
