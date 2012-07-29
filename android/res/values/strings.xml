@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Dias festivos</string>
+    <string name="hello_world">TEST!</string>
+    
+    <string name="title_activity_main">Dias festivos</string>
+
+</resources>

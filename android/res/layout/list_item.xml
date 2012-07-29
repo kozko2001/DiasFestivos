@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        
+        >
+
+            <TextView
+        android:id="@+id/nombre_festividad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Navidad"
+        android:layout_marginLeft="?android:attr/listPreferredItemPaddingLeft"
+    	android:layout_marginTop="8dp"
+		android:textAppearance="?android:attr/textAppearanceListItem" />
+        
+         <TextView
+        android:id="@+id/fecha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="6 de Enero del 2012"
+        android:layout_below="@id/nombre_festividad"
+        android:layout_alignLeft="@id/nombre_festividad"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+         
+         
+		<TextView
+		        android:id="@+id/dias_restantes"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:minWidth="48dp"
+		        android:gravity="center_vertical|center_horizontal"
+		        android:text="-"
+		        android:layout_alignParentRight="true"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     </RelativeLayout>
+
+        

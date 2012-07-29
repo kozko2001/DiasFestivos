@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dip"
+    android:background="@drawable/round_square" 
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/countDown"
+        style="@android:style/TextAppearance.Large.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_margin="4dip"
+        android:text="test"
+        android:textColor="@android:color/white"
+        android:textSize="31sp"
+        android:layout_weight="1" >
+    </TextView>
+
+     <TextView
+        android:id="@+id/dia_festivo"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_margin="4dip"
+        android:text="San valentin "
+        android:layout_weight="0"
+        android:textColor="@android:color/white"
+        android:lines="1"
+        android:textSize="14sp" >
+    </TextView>
+</LinearLayout> 
